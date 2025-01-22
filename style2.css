@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: white;
+
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background: white;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+section h2{
+    color: black;
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+
+section form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form label{
+    color: black;
+    font-size: 17px;
+    margin-bottom: 4px;
+
+}
+
+form input{
+    padding: 15px;
+    
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+
+}
+
+form input:focus{
+    border-radius: 16px;
+
+}
+
+form textarea{
+    padding: 10px;
+    
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+
+}
+
+form textarea:focus{
+    border-radius: 16px;
+}
+
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid black;
+    color: black;
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+
+form button:hover{
+    background: white;
+    color: black;
+    border-radius: 16px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: black;
+    flex-direction: column;
+
+}
+
+.text{
+    font-size: 45px;
+    color: white;
+    margin-bottom: 30px;
+
+}
+
+.paragrafo{
+    color: white;
+    margin-bottom: 50px;
+}
+
+.btn{
+    padding: 15px 55px;
+    background: white;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+
+.btn:hover{
+    border-radius: 16px;
+}
